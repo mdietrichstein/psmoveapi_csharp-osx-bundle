@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'psmoveapi_csharp' target in the 'psmoveapi_csharp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

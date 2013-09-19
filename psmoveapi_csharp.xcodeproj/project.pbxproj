@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499E571717EB0722001A959D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499E571617EB0722001A959D /* CoreFoundation.framework */; };
+		499E571D17EB0722001A959D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 499E571B17EB0722001A959D /* InfoPlist.strings */; };
+		49BBA67C17EB07ED0047F9AD /* libpsmoveapi_csharp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBA67B17EB07ED0047F9AD /* libpsmoveapi_csharp.dylib */; };
+		49BBA67F17EB09060047F9AD /* libpsmoveapi_csharp.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49BBA67B17EB07ED0047F9AD /* libpsmoveapi_csharp.dylib */; };
+		49BBA68117EB092B0047F9AD /* dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 49BBA68017EB092B0047F9AD /* dummy.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49BBA67E17EB08F80047F9AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				49BBA67F17EB09060047F9AD /* libpsmoveapi_csharp.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		499E571317EB0722001A959D /* psmoveapi_csharp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = psmoveapi_csharp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		499E571617EB0722001A959D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		499E571A17EB0722001A959D /* psmoveapi_csharp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "psmoveapi_csharp-Info.plist"; sourceTree = "<group>"; };
+		499E571C17EB0722001A959D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		499E571E17EB0722001A959D /* psmoveapi_csharp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "psmoveapi_csharp-Prefix.pch"; sourceTree = "<group>"; };
+		49BBA67B17EB07ED0047F9AD /* libpsmoveapi_csharp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpsmoveapi_csharp.dylib; sourceTree = "<group>"; };
+		49BBA68017EB092B0047F9AD /* dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dummy.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499E571017EB0722001A959D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499E571717EB0722001A959D /* CoreFoundation.framework in Frameworks */,
+				49BBA67C17EB07ED0047F9AD /* libpsmoveapi_csharp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499E570A17EB0722001A959D = {
+			isa = PBXGroup;
+			children = (
+				49BBA67B17EB07ED0047F9AD /* libpsmoveapi_csharp.dylib */,
+				499E571817EB0722001A959D /* psmoveapi_csharp */,
+				499E571517EB0722001A959D /* Frameworks */,
+				499E571417EB0722001A959D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499E571417EB0722001A959D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499E571317EB0722001A959D /* psmoveapi_csharp.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499E571517EB0722001A959D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499E571617EB0722001A959D /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		499E571817EB0722001A959D /* psmoveapi_csharp */ = {
+			isa = PBXGroup;
+			children = (
+				499E571917EB0722001A959D /* Supporting Files */,
+				49BBA68017EB092B0047F9AD /* dummy.c */,
+			);
+			path = psmoveapi_csharp;
+			sourceTree = "<group>";
+		};
+		499E571917EB0722001A959D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				499E571A17EB0722001A959D /* psmoveapi_csharp-Info.plist */,
+				499E571B17EB0722001A959D /* InfoPlist.strings */,
+				499E571E17EB0722001A959D /* psmoveapi_csharp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499E571217EB0722001A959D /* psmoveapi_csharp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499E572117EB0722001A959D /* Build configuration list for PBXNativeTarget "psmoveapi_csharp" */;
+			buildPhases = (
+				49BBA67D17EB084B0047F9AD /* Run Script */,
+				499E570F17EB0722001A959D /* Sources */,
+				499E571017EB0722001A959D /* Frameworks */,
+				499E571117EB0722001A959D /* Resources */,
+				49BBA67E17EB08F80047F9AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = psmoveapi_csharp;
+			productName = psmoveapi_csharp;
+			productReference = 499E571317EB0722001A959D /* psmoveapi_csharp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499E570B17EB0722001A959D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Beltfed Interactive";
+			};
+			buildConfigurationList = 499E570E17EB0722001A959D /* Build configuration list for PBXProject "psmoveapi_csharp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 499E570A17EB0722001A959D;
+			productRefGroup = 499E571417EB0722001A959D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499E571217EB0722001A959D /* psmoveapi_csharp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499E571117EB0722001A959D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499E571D17EB0722001A959D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49BBA67D17EB084B0047F9AD /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "install_name_tool -id @loader_path/libpsmoveapi_csharp.dylib libpsmoveapi_csharp.dylib\n\necho OTOOL BEGIN\notool -L libpsmoveapi_csharp.dylib\necho OTOOL END";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499E570F17EB0722001A959D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BBA68117EB092B0047F9AD /* dummy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		499E571B17EB0722001A959D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499E571C17EB0722001A959D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499E571F17EB0722001A959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		499E572017EB0722001A959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		499E572217EB0722001A959D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "psmoveapi_csharp/psmoveapi_csharp-Prefix.pch";
+				INFOPLIST_FILE = "psmoveapi_csharp/psmoveapi_csharp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		499E572317EB0722001A959D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "psmoveapi_csharp/psmoveapi_csharp-Prefix.pch";
+				INFOPLIST_FILE = "psmoveapi_csharp/psmoveapi_csharp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499E570E17EB0722001A959D /* Build configuration list for PBXProject "psmoveapi_csharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499E571F17EB0722001A959D /* Debug */,
+				499E572017EB0722001A959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499E572117EB0722001A959D /* Build configuration list for PBXNativeTarget "psmoveapi_csharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499E572217EB0722001A959D /* Debug */,
+				499E572317EB0722001A959D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499E570B17EB0722001A959D /* Project object */;
+}
