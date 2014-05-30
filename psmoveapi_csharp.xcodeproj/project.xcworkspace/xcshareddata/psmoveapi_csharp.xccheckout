@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>07AD55E9-4C01-4FED-8AF8-60B40CBA3A8E</string>
+	<string>EC657A25-34FB-481D-9D05-727A0900F30D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>psmoveapi_csharp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B6104187-9AF4-467A-9F1B-31FAD6045DBF</key>
-		<string>ssh://github.com/bitpew/psmoveapi_csharp-osx-bundle.git</string>
+		<key>34327C46-A271-48AC-962C-D2A63DB5CC76</key>
+		<string>ssh://github-bp/bitpew/psmoveapi_csharp-osx-bundle.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>psmoveapi_csharp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B6104187-9AF4-467A-9F1B-31FAD6045DBF</key>
+		<key>34327C46-A271-48AC-962C-D2A63DB5CC76</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/bitpew/psmoveapi_csharp-osx-bundle.git</string>
+	<string>ssh://github-bp/bitpew/psmoveapi_csharp-osx-bundle.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B6104187-9AF4-467A-9F1B-31FAD6045DBF</string>
+	<string>34327C46-A271-48AC-962C-D2A63DB5CC76</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B6104187-9AF4-467A-9F1B-31FAD6045DBF</string>
+			<string>34327C46-A271-48AC-962C-D2A63DB5CC76</string>
 			<key>IDESourceControlWCCName</key>
 			<string>psmoveapi_csharp-osx-bundle</string>
 		</dict>
